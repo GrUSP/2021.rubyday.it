@@ -10,6 +10,8 @@ theme: "grusp_conf"
 
 # Site / OG
 type: website
+slug: rubyday
+edition: 2021
 title: "rubyday 2021"
 description: "rubyday 2020, online conference"
 #   separate keywords by comma, no spaces

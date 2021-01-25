@@ -1,4 +1,4 @@
-sponsors_block_title: "Thanks to our awesome sponsors"
+sponsors_block_title: ""
 # main:
 #   sponsor1:
 #     name: ""
@@ -37,14 +37,6 @@ sponsors_block_title: "Thanks to our awesome sponsors"
 #     name: ""
 #     logo_filename: ""
 #     site_url: ""
-# media:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
 
-community_partners:
-  cp_1:
-    name: ""
-    website_url: ""
-    logo_filename: ""
+partner_tags:
+  - ruby
