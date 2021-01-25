@@ -33,7 +33,7 @@ levels:
     description_2:
       - "Virtual booth"
     description_3:
-      - "Your logo displayed​ on rotation in the lower third throughout the event"
+      - "Your logo displayed on rotation in the lower third throughout the event"
     description_4:
       - "Your own digital flyer and/or gadget in digital swag bag"
     description_5:
@@ -72,7 +72,7 @@ levels:
     description_2:
       - "Virtual booth"
     description_3:
-      - "Your logo displayed​ on rotation in the lower third throughout the event"
+      - "Your logo displayed on rotation in the lower third throughout the event"
     description_4:
       - "Your own digital flyer and/or gadget in digital swag bag"
     description_5:
@@ -87,7 +87,7 @@ levels:
     vat_label: "(+ VAT 22%)"
     available_slots: 8
     description_3:
-      - "Your logo displayed​ on rotation in the lower third throughout the event"
+      - "Your logo displayed on rotation in the lower third throughout the event"
     description_4:
       - "Your own digital flyer and/or gadget in digital swag bag"
     description_5:
