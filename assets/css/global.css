@@ -4899,11 +4899,11 @@ header {
   border-radius: 20px;
   margin: 0 8px;
   border: 1px solid #5e4e9b; }
-  .social-icon svg path, .social-icon svg rect, .social-icon svg ellipse {
+  .social-icon svg path, .social-icon svg rect, .social-icon svg ellipse, .social-icon svg circle {
     fill: #fff; }
   .social-icon:hover, .social-icon:active, .social-icon:focus {
     background-color: #fff; }
-    .social-icon:hover svg path, .social-icon:hover svg rect, .social-icon:hover svg ellipse, .social-icon:active svg path, .social-icon:active svg rect, .social-icon:active svg ellipse, .social-icon:focus svg path, .social-icon:focus svg rect, .social-icon:focus svg ellipse {
+    .social-icon:hover svg path, .social-icon:hover svg rect, .social-icon:hover svg ellipse, .social-icon:hover svg circle, .social-icon:active svg path, .social-icon:active svg rect, .social-icon:active svg ellipse, .social-icon:active svg circle, .social-icon:focus svg path, .social-icon:focus svg rect, .social-icon:focus svg ellipse, .social-icon:focus svg circle {
       fill: #5e4e9b; }
 
 .geninfo-buttons {
@@ -5279,22 +5279,30 @@ header {
       font-size: 1em; }
   .sponsors__container .inner .columns {
     padding: 2em 0;
-    justify-content: center; }
+    justify-content: center;
+    flex-flow: wrap; }
     .sponsors__container .inner .columns .column {
       margin: 0 1em; }
     .sponsors__container .inner .columns .column__main, .sponsors__container .inner .columns .column__main img {
+      min-width: 320px;
       max-width: 320px; }
     .sponsors__container .inner .columns .column__diamond, .sponsors__container .inner .columns .column__diamond img {
+      min-width: 280px;
       max-width: 280px; }
     .sponsors__container .inner .columns .column__platinum, .sponsors__container .inner .columns .column__platinum img {
+      min-width: 240px;
       max-width: 240px; }
     .sponsors__container .inner .columns .column__gold, .sponsors__container .inner .columns .column__gold img {
+      min-width: 200px;
       max-width: 200px; }
     .sponsors__container .inner .columns .column__silver, .sponsors__container .inner .columns .column__silver img {
+      min-width: 160px;
       max-width: 160px; }
     .sponsors__container .inner .columns .column__bronze, .sponsors__container .inner .columns .column__bronze img {
+      min-width: 120px;
       max-width: 120px; }
     .sponsors__container .inner .columns .column__media, .sponsors__container .inner .columns .column__media img {
+      min-width: 100px;
       max-width: 100px; }
 
 .community-partners-container h2 {
@@ -5305,27 +5313,17 @@ header {
 .community-partners-container .inner {
   border: 8px solid #9c91c5 !important;
   padding: 2em;
-  text-align: center; }
-  .community-partners-container .inner .inner-flex {
-    display: flex;
-    flex: 1;
-    justify-content: center; }
-    .community-partners-container .inner .inner-flex .partner-holder {
-      display: flex;
-      flex-direction: column;
-      margin: 1em;
-      color: #000; }
-      .community-partners-container .inner .inner-flex .partner-holder img {
-        max-width: 120px;
-        transition: transform .5s; }
-        .community-partners-container .inner .inner-flex .partner-holder img:hover, .community-partners-container .inner .inner-flex .partner-holder img:active, .community-partners-container .inner .inner-flex .partner-holder img:focus {
-          transform: scale(1.1); }
-      .community-partners-container .inner .inner-flex .partner-holder p {
-        margin-top: 0; }
-        .community-partners-container .inner .inner-flex .partner-holder p:first-of-type {
-          flex-grow: 1; }
-        .community-partners-container .inner .inner-flex .partner-holder p:last-of-type {
-          margin-top: auto; }
+  text-align: center;
+  flex-flow: wrap; }
+  .community-partners-container .inner .columns {
+    padding: 2em 0;
+    justify-content: center;
+    flex-flow: wrap; }
+    .community-partners-container .inner .columns .column {
+      margin: 0 1em; }
+    .community-partners-container .inner .columns .column__community, .community-partners-container .inner .columns .column__community img {
+      min-width: 120px;
+      max-width: 120px; }
 
 .mailchimp-container a {
   color: #fff; }
@@ -8290,9 +8288,9 @@ footer {
         border: 1px solid #fff; }
         footer .columns.inner .row__social .social-icon:hover, footer .columns.inner .row__social .social-icon:active, footer .columns.inner .row__social .social-icon:focus {
           background-color: #5e4e9b; }
-          footer .columns.inner .row__social .social-icon:hover svg path, footer .columns.inner .row__social .social-icon:hover svg rect, footer .columns.inner .row__social .social-icon:hover svg ellipse, footer .columns.inner .row__social .social-icon:active svg path, footer .columns.inner .row__social .social-icon:active svg rect, footer .columns.inner .row__social .social-icon:active svg ellipse, footer .columns.inner .row__social .social-icon:focus svg path, footer .columns.inner .row__social .social-icon:focus svg rect, footer .columns.inner .row__social .social-icon:focus svg ellipse {
+          footer .columns.inner .row__social .social-icon:hover svg path, footer .columns.inner .row__social .social-icon:hover svg rect, footer .columns.inner .row__social .social-icon:hover svg ellipse, footer .columns.inner .row__social .social-icon:hover svg circle, footer .columns.inner .row__social .social-icon:active svg path, footer .columns.inner .row__social .social-icon:active svg rect, footer .columns.inner .row__social .social-icon:active svg ellipse, footer .columns.inner .row__social .social-icon:active svg circle, footer .columns.inner .row__social .social-icon:focus svg path, footer .columns.inner .row__social .social-icon:focus svg rect, footer .columns.inner .row__social .social-icon:focus svg ellipse, footer .columns.inner .row__social .social-icon:focus svg circle {
             fill: #fff; }
-      footer .columns.inner .row__social svg path, footer .columns.inner .row__social svg rect, footer .columns.inner .row__social svg ellipse {
+      footer .columns.inner .row__social svg path, footer .columns.inner .row__social svg rect, footer .columns.inner .row__social svg ellipse, footer .columns.inner .row__social svg circle {
         fill: #5e4e9b; }
     footer .columns.inner nav {
       padding: 1em;
