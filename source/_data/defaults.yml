@@ -177,15 +177,15 @@ conference:
   footer_links_privacy_link_label: "privacy policy"
   iubenda:
     # sostituire tutti questi parametri con quelli generati nel dashboard di iubenda.com cfr. https://gist.github.com/mbeccati/1bd9e562905a90e14d7d88ed3dcea34c
-    cookiePolicyId: 29098106
-    siteId: 1078163
+    cookiePolicyId: 13404179
+    siteId: 1485759
     lang: en
     enableRemoteConsent: true
-    localConsentDomain: sfday.it
+    localConsentDomain: rubyday.it
     rebuildIframe: true
   privacy_policy_url_common: "https://www.iubenda.com/privacy-policy/"
   footer_link_middle: " and our "
   footer_coc_link_label: "code of conduct"
   # Google Tag Manager
   google:
-    tag_manager_id: "GTM-P5GXBFP"
+    tag_manager_id: "GTM-WXLML2N"
