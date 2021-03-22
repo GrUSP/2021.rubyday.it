@@ -152,7 +152,7 @@ days:
         start_datetime: 2021-04-07T17:30+02:00
         end_datetime: 2021-04-07T18:30+02:00
         talk_title: "ViewComponents in the Real World"
-        talk_description: "With the release of 6.1, Rails added support for rendering objects that respond to `render_in`, a feature extracted from the GitHub application. This change enabled the development of ViewComponent, a framework for building reusable, testable & encapsulated view components. In this talk, we’ll share what we’ve learned scaling to hundreds of ViewComponents in our application, open sourcing a library of ViewComponents, and nurturing a thriving community around the project, both internally and externally."
+        talk_description: "With the release of 6.1, Rails added support for rendering objects that respond to 'render_in', a feature extracted from the GitHub application. This change enabled the development of ViewComponent, a framework for building reusable, testable & encapsulated view components. In this talk, we’ll share what we’ve learned scaling to hundreds of ViewComponents in our application, open sourcing a library of ViewComponents, and nurturing a thriving community around the project, both internally and externally."
         speakers:
           speaker_1: *joel
       talk_10:
