@@ -169,7 +169,7 @@ days:
         item_type: "service"
         start_datetime: 2021-04-07T19:15+02:00
         end_datetime: 2021-04-07T19:30+02:00
-        talk_title: "Goodbye"
+        talk_title: "Closing by GrUSP"
 
   # day_2:
   #   date: 2020-09-17T09:00
