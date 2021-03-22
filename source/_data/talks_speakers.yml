@@ -4,31 +4,66 @@ schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &regular_speaker
+speaker_1: &coraline
   speaker_in_speaker_lists: true
-  speaker_name: Luca Guidi
-  speaker_pic_filename: lucaguidi.png
-  speaker_role: Author of Hanami
-  speaker_bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. And however, enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-  speaker_github_url: "https://github.com/jodosha"
-  speaker_twitter_url: "https://twitter.com/jodosha"
-speaker_2: &keynote_speaker
+  speaker_name: Coraline Ada Ehmke
+  speaker_pic_filename: coralineada-hemke.png
+  speaker_role: Founder, Organization for Ethical Source
+  speaker_bio: "is at the forefront of the debate on ethics in open source. She is an internationally recognized engineer and activist with nearly 30 years of industry experience. In 2014 Coraline created the Contributor Covenant, the first and most popular code of conduct for open source communities. In 2018, Coraline addressed the United Nations Forum on Business and Human Rights on human rights abuses in the tech industry. In 2019 she authored the Hippocratic License, an Ethical Open Source license, and founded the Ethical Source Movement."
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/CoralineAda"
+speaker_2: &sabrina
   speaker_in_speaker_lists: true
-  speaker_name: Keynote Speaker
-  speaker_pic_filename: giulia.jpeg
-  speaker_role: "speaker role (optional)"
-  speaker_bio: "Example of a workshop host that must appear in speaker lists"
-
+  speaker_name: Sabrina Gannon
+  speaker_pic_filename: sabrina-gannon.png
+  speaker_role: "Senior Software Developer @ Dribbble"
+  speaker_bio: "is a software developer at Dribbble with a keen interest in what makes for good software design. When she's not hacking away on a script to automate some aspect of her life, you can find Sabrina hacking away on a sewing project or getting way too emotionally invested in whatever piece of media she's picked up next!"
+  speaker_twitter_url: "https://twitter.com/thecodewitch"
+speaker_3: &joel
+  speaker_in_speaker_lists: true
+  speaker_name: Joel Hawksley
+  speaker_pic_filename: joel-hawksly.png
+  speaker_role: "Engineer @ GitHub"
+  speaker_bio: "is an engineer at GitHub and the creator of ViewComponent."
+  speaker_twitter_url: "https://twitter.com/joelhawksley"
+speaker_4: &matz
+  speaker_in_speaker_lists: true
+  speaker_name: Yukihiro "Matz" Matsumoto
+  speaker_pic_filename: matz.png
+  speaker_role: "The Creator of Ruby"
+  speaker_bio: ""
+  speaker_twitter_url: "https://twitter.com/yukihiro_matz"
+speaker_5: &maciek
+  speaker_in_speaker_lists: true
+  speaker_name: Maciek	Rząsa
+  speaker_pic_filename: maciek-rzasa.png
+  speaker_role: "Senior Backend Engineer @ Toptal"
+  speaker_bio: "is a Software engineer specialising in Ruby with over 5 years of experience in various domains. Interested in distributed systems, self-organising teams and writing software that matters. At Toptal where he works, he is involved in a Billing Extraction project in which a complex domain of billing is isolated as a separate service. Knowledge sharing advocate. Co-organiser of Rzeszów Ruby User Group. Speaker at technical conferences and meetups. Instructor at Rzeszów University of Technology."
+  speaker_twitter_url: "https://twitter.com/mjrzasa"
+speaker_6: &casey
+  speaker_in_speaker_lists: true
+  speaker_name: Casey	Watts
+  speaker_pic_filename: casey-watts.png
+  speaker_role: "Independent Consultant"
+  speaker_bio: "studied neurobiology at Yale University, and he is a co-author on several neurobiology papers. He has also worked in software development for 10 years, including at Heroku. Casey can play ten musical instruments, and he owns one in every color of the rainbow, most recently a white accordion."
+  speaker_twitter_url: "https://twitter.com/heycaseywattsup"
+speaker_7: &brandon
+  speaker_in_speaker_lists: true
+  speaker_name: Brandon	Weaver
+  speaker_pic_filename: brandon-weaver.png
+  speaker_role: "Staff Engineer / Ruby Architect @ Square"
+  speaker_bio: "is a Ruby Architect at Square working on the Frameworks team, defining standards for Ruby across the company. He's an artist who turned programmer who had a crazy idea to teach programming with cartoon lemurs and whimsy."
+  speaker_twitter_url: "https://twitter.com/keystonelemur"
 tracks:
   track_1: &track_1
     id: 1
     title: "Track 1"
-  track_2: &track_2
-    id: 2
-    title: "Track 2"
-  track_3: &track_3
-    id: 3
-    title: "Track 3 - fake track"
+#  track_2: &track_2
+#    id: 2
+#    title: "Track 2"
+#  track_3: &track_3
+#    id: 3
+#    title: "Track 3 - fake track"
 
 # NB "item_type": tipi di "talk"
 #   "talk" -- un talk vero e proprio, che va anche in components/speakers e nella pagina talks_speakers
@@ -40,106 +75,101 @@ tracks:
 
 days:
   day_1:
-    date: 2020-09-16T09:00
+    date: 2021-04-07T11:15+02:00
     title: "Day 1"
     talks:
       talk_1:
         item_type: "service"
-        start_datetime: 2020-09-16T09:00
-        end_datetime: 2020-09-16T09:30
-        talk_title: "Check-in"
+        start_datetime: 2021-04-07T11:15+02:00
+        end_datetime: 2021-04-07T11:30+02:00
+        talk_title: "Welcome from GrUSP"
       talk_2:
-        item_type: "service"
-        start_datetime: 2020-09-16T09:30
-        end_datetime: 2020-09-16T09:45
-        talk_title: "GrUSP presentation"
-      talk_3:
-        item_type: "keynote"
-        start_datetime: 2020-09-16T09:45
-        end_datetime: 2020-09-16T10:00
-        talk_title: "Keynote title (optional)"
-        talk_description: "Keynote description (optional)"
-        speakers:
-          speaker_1: *keynote_speaker
-      talk_4:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2020-09-16T10:00
-        end_datetime: 2020-09-16T10:45
-        talk_title: Lorem ipsum
-        talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        talk_video_url:
+        start_datetime: 2021-04-07T11:30+02:00
+        end_datetime: 2021-04-07T12:30+02:00
+        talk_title: "Ruby3.0 and Beyond"
+        talk_description: ""
         speakers:
-          speaker_1: *regular_speaker
+          speaker_1: *matz
+      talk_3:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2021-04-07T12:30+02:00
+        end_datetime: 2021-04-07T13:15+02:00
+        talk_title: "API Optimization Tale: Monitor, Fix and Deploy (on Friday)"
+        talk_description: "I saw a green build on a Friday afternoon. I knew I need to push it to production before the weekend. My gut told me it was a trap. I had already stayed late to revert a broken deploy. I knew the risk.
+        In the middle of a service extraction project, we decided to migrate from REST to GraphQL and optimize API usage. My deploy was a part of this radical change.
+        Why was I deploying so late? How did we measure the migration effects? And why was I testing on production? I'll tell you a tale of small steps, monitoring, and old tricks in a new setting. Hope, despair, and broken production included."
+        speakers:
+          speaker_1: *maciek
+      talk_4:
+        item_type: "service"
+        start_datetime: 2021-04-07T13:15+02:00
+        end_datetime: 2021-04-07T14:30+02:00
+        talk_title: "Lunch break"
+        service_icon: "cutlery"
       talk_5:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2020-09-16T11:00
-        end_datetime: 2020-09-16T12:00
-        talk_title: Lorem ipsum
-        talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        start_datetime: 2021-04-07T14:30+02:00
+        end_datetime: 2021-04-07T15:30+02:00
+        talk_title: Debugging Your Brain
+        talk_description: "Sometimes your mind distorts reality, gets frustrated with shortcomings, or spirals out of control. Learn how to debug these by using research-backed psychology techniques."
         talk_video_url:
         speakers:
-          speaker_1: *regular_speaker
+          speaker_1: *casey
       talk_6:
-        item_type: "service"
-        start_datetime: 2020-09-16T10:45
-        end_datetime: 2020-09-16T11:00
-        talk_title: "Coffee break"
-        service_icon: "coffee"
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2021-04-07T15:30+02:00
+        end_datetime: 2021-04-07T16:15+02:00
+        talk_title: "Checking Your Types: An Overview of Ruby's Type System"
+        talk_description: "Typechecking is an exciting feature that distinguishes Ruby 3 and beyond! In this talk we'll explore how types work in Ruby with the future of type checking in mind to deepen our understanding of the value of the new type checking tools and to delve deeper into Ruby types overall. Here's to getting to the root of understanding NoMethodError!"
+        speakers:
+          speaker_1: *sabrina
       talk_7:
         item_type: "talk"
-        track: *track_2
-        start_datetime: 2020-09-16T10:00
-        end_datetime: 2020-09-16T10:45
-        talk_title: Lorem ipsum
-        talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        track: *track_1
+        start_datetime: 2021-04-07T16:15+02:00
+        end_datetime: 2021-04-07T17:00+02:00
+        talk_title: Playing a Hand with Ruby Pattern Matching
+        talk_description: "Ruby 2.7 introduced Pattern Matching, but what can you use it for? How about we play a few hands of poker to find out.
+        This talk explores Pattern Matching patterns through scoring poker hands using named captures, pins, hash destructuring, array destructuring, and more. If you've
+        been waiting for some practical examples of Pattern Matching this is your talk."
         talk_video_url:
         speakers:
-          speaker_1: *regular_speaker
+          speaker_1: *brandon
       talk_8:
-        item_type: "workshop"
-        track: *track_3
-        start_datetime: 2020-09-16T11:00
-        end_datetime: 2020-09-16T13:00
-        talk_title: "Workshop title (optional)"
-        talk_description: "Workshop description (optional) very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long "
-        speakers:
-          speaker_1: *regular_speaker
+        item_type: "service"
+        start_datetime: 2021-04-07T17:00+02:00
+        end_datetime: 2021-04-07T17:30+02:00
+        talk_title: Coffee Break
+        service_icon: "coffee"
       talk_9:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2020-09-16T12:00
-        end_datetime: 2020-09-16T13:00
-        talk_title: "talk in second slot #1"
-        talk_description: "test per rowspan"
+        start_datetime: 2021-04-07T17:30+02:00
+        end_datetime: 2021-04-07T18:30+02:00
+        talk_title: "ViewComponents in the Real World"
+        talk_description: "With the release of 6.1, Rails added support for rendering objects that respond to `render_in`, a feature extracted from the GitHub application. This change enabled the development of ViewComponent, a framework for building reusable, testable & encapsulated view components. In this talk, we’ll share what we’ve learned scaling to hundreds of ViewComponents in our application, open sourcing a library of ViewComponents, and nurturing a thriving community around the project, both internally and externally."
         speakers:
-          speaker_1: *regular_speaker
+          speaker_1: *joel
       talk_10:
         item_type: "talk"
-        track: *track_2
-        start_datetime: 2020-09-16T11:00
-        end_datetime: 2020-09-16T12:00
-        talk_title: "This is a talk in track 2"
-        talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        track: *track_1
+        start_datetime: 2021-04-07T18:30+02:00
+        end_datetime: 2021-04-07T19:15+02:00
+        talk_title: "The Rising Ethical Storm in Open Source"
+        talk_description: "The increased debate around ethical source threatens to divide the OSS community. In his book 'The Structure of Scientific Revolutions', philosopher Thomas Kuhn posits that there are three possible solutions to a crisis like the one we're facing: procrastination, assimilation, or revolution. Which will we choose as we prepare for the hard work of reconciling ethics and open source?"
         talk_video_url:
         speakers:
-          speaker_1: *regular_speaker
+          speaker_1: *coraline
       talk_11:
         item_type: "service"
-        start_datetime: 2020-09-16T13:00
-        end_datetime: 2020-09-16T14:00
-        talk_title: "Lunch break"
-        service_icon: "cutlery"
-      talk_12:
-        item_type: "talk"
-        track: *track_2
-        start_datetime: 2020-09-16T12:00
-        end_datetime: 2020-09-16T13:00
-        talk_title: "talk in second slot #2"
-        talk_description: "test per rowspan"
-        speakers:
-          speaker_1: *regular_speaker
+        start_datetime: 2021-04-07T19:15+02:00
+        end_datetime: 2021-04-07T19:30+02:00
+        talk_title: "Goodbye"
 
   # day_2:
   #   date: 2020-09-17T09:00
@@ -147,8 +177,8 @@ days:
   #   talks:
   #     talk_1:
   #       item_type: "service"
-  #       start_datetime: 2020-09-16T09:00
-  #       end_datetime: 2020-09-16T09:30
+  #       start_datetime: 2021-04T09:00
+  #       end_datetime: 2021-04T09:30
   #       talk_title: "Welcome Coffee"
   #       service_icon: "coffee"
   #     talk_2:
