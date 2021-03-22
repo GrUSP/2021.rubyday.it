@@ -35,21 +35,21 @@ speaker_4: &matz
   speaker_twitter_url: "https://twitter.com/yukihiro_matz"
 speaker_5: &maciek
   speaker_in_speaker_lists: true
-  speaker_name: Maciek	Rząsa
+  speaker_name: Maciek Rząsa
   speaker_pic_filename: maciek-rzasa.png
   speaker_role: "Senior Backend Engineer @ Toptal"
   speaker_bio: "is a Software engineer specialising in Ruby with over 5 years of experience in various domains. Interested in distributed systems, self-organising teams and writing software that matters. At Toptal where he works, he is involved in a Billing Extraction project in which a complex domain of billing is isolated as a separate service. Knowledge sharing advocate. Co-organiser of Rzeszów Ruby User Group. Speaker at technical conferences and meetups. Instructor at Rzeszów University of Technology."
   speaker_twitter_url: "https://twitter.com/mjrzasa"
 speaker_6: &casey
   speaker_in_speaker_lists: true
-  speaker_name: Casey	Watts
+  speaker_name: Casey Watts
   speaker_pic_filename: casey-watts.png
   speaker_role: "Independent Consultant"
   speaker_bio: "studied neurobiology at Yale University, and he is a co-author on several neurobiology papers. He has also worked in software development for 10 years, including at Heroku. Casey can play ten musical instruments, and he owns one in every color of the rainbow, most recently a white accordion."
   speaker_twitter_url: "https://twitter.com/heycaseywattsup"
 speaker_7: &brandon
   speaker_in_speaker_lists: true
-  speaker_name: Brandon	Weaver
+  speaker_name: Brandon Weaver
   speaker_pic_filename: brandon-weaver.png
   speaker_role: "Staff Engineer / Ruby Architect @ Square"
   speaker_bio: "is a Ruby Architect at Square working on the Frameworks team, defining standards for Ruby across the company. He's an artist who turned programmer who had a crazy idea to teach programming with cartoon lemurs and whimsy."
