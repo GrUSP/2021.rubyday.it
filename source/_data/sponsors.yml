@@ -16,6 +16,10 @@ sponsors_block_title: "Thanks to our sponsors and partners"
 #     site_url: ""
 gold:
   sponsor1:
+    name: "Nebulab"
+    logo_filename: "nebulab.svg"
+    site_url: "https://nebulab.it/"
+  sponsor2:
     name: "Workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
