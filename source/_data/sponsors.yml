@@ -28,6 +28,10 @@ silver:
     name: "Seesaw"
     logo_filename: "seesaw.svg"
     site_url: "https://www.seesaw.it/"
+  sponsor2:
+    name: "Welaika"
+    logo_filename: "welaika.svg"
+    site_url: "https://dev.welaika.com/?utm_source=rubyday2021"
 bronze:
   sponsor1:
     name: "Stickermule"
