@@ -31,7 +31,7 @@ silver:
   sponsor1:
     name: "Seesaw"
     logo_filename: "seesaw.png"
-    site_url: "https://www.seesaw.it/"
+    site_url: "http://www.seesaw.it/new_look?src=rd21"
   sponsor2:
     name: "Welaika"
     logo_filename: "welaika.svg"
