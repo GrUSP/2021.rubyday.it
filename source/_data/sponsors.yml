@@ -30,7 +30,7 @@ gold:
 silver:
   sponsor1:
     name: "Seesaw"
-    logo_filename: "seesaw.svg"
+    logo_filename: "seesaw.png"
     site_url: "https://www.seesaw.it/"
   sponsor2:
     name: "Welaika"
