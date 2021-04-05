@@ -16,14 +16,18 @@ sponsors_block_title: "Thanks to our sponsors and partners"
 #     site_url: ""
 gold:
   sponsor1:
+    name: "Forest Admin"
+    logo_filename: "forestadmin.png"
+    site_url: "https://www.forestadmin.com/"
+  sponsor2:
     name: "Iubenda"
     logo_filename: "iubenda.svg"
     site_url: "https://www.iubenda.com/en/"
-  sponsor2:
+  sponsor3:
     name: "Nebulab"
     logo_filename: "nebulab.svg"
     site_url: "https://nebulab.it/"
-  sponsor3:
+  sponsor4:
     name: "Workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
